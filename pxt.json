@@ -1,7 +1,7 @@
 {
     "name": "sensors",
     "version": "0.0.2",
-    "description": "這是專為micro:bit提供的方塊積木",
+    "description": "智高提供的積木方塊",
     "license": "MIT",
     "dependencies": {
         "core": "*"
