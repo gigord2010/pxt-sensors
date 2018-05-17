@@ -1,4 +1,4 @@
 {
     "sensors|block": "智高",
-    "sensors.DDMmotor|block": "控制腳位選擇 %McontrolPin|選擇正反轉(0~1) %McontrolValue|速度腳位選擇 %MSpeedPin|選擇速度(0~255) %MSpeedValue"
+    "sensors.DDMmotor|block": "1 %McontrolPin|2 %McontrolValue|3 %MSpeedPin|4 %MSpeedValue"
 }
