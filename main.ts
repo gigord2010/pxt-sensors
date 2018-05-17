@@ -9,9 +9,7 @@ namespace sensors {
     //% MSpeedPin.fieldOptions.tooltips="false" MSpeedPin.fieldOptions.width="300"
     
     export function DDMmotor(McontrolPin: AnalogPin,McontrolValue: number1,MSpeedPin: AnalogPin,MSpeedValue: number2): void {
-        pins.analogWritePin(McontrolPin, pins.map(McontrolValue, 0, 1, 0, 1023));
-        pins.analogWritePin(MSpeedPin, pins.map(MSpeedValue, 0, 255, 0, 1023));
-	   
-
+        pins.analogWritePin(McontrolPin, pins.map(McontrolValue, 0, 255, 0, 1023));
+        pins.analogWritePin(MSpeedPin, pins.map(MSpeedValue, 0, 255, 0, 1023));	   
     }
 }
