@@ -1,4 +1,4 @@
 {
-    "gigo|block": "智高",
-    "gigo.DDM|block": "控制腳位選擇 %ControlPin|速度腳位選擇 %SpeedPin|選擇正反轉(0~1) %Select|選擇速度(0~255) %SpeedValue"
+    "sensors|block": "智高",
+    "sensors.sensors|block": "控制腳位選擇 %McontrolPin|選擇正反轉(0~1) %McontrolValue|速度腳位選擇 %MSpeedPin|選擇速度(0~255) %MSpeedValue"
 }
