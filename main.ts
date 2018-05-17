@@ -9,7 +9,7 @@ namespace sensors {
     
     export function DDMmotor(McontrolPin: AnalogPin,McontrolValue: number,MSpeedPin: AnalogPin,MSpeedValue: number): void {
         pins.analogWritePin(McontrolPin, pins.map(McontrolValue, 0, 1, 0, 1023));
-        pins.analogWritePin(MSpeedPin, pins.map(MSpeedValue, 0, 255, 0, 1023));
+        pins.analogWritePin(MSpeedPin, pins.map(MSpeedValue, 0, 1, 0, 1023));
 	   
 
     }
