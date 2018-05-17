@@ -1,4 +1,4 @@
 {
-    "sensors|block": "智高",
-    "sensors.DDMmotor|block": "1 %McontrolPin|2 %McontrolValue|3 %MSpeedPin|4 %MSpeedValue"
+    "sensors|block": "提",
+    "sensors.DDMmotor|block": "供 %McontrolPin|的 %McontrolValue|方 %MSpeedPin|塊 %MSpeedValue"
 }
