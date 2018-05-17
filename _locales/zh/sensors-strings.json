@@ -1,4 +1,4 @@
 {
-    "sensors|block": "提",
-    "sensors.DDMmotor|block": "供 %McontrolPin|的 %McontrolValue|方 %MSpeedPin|塊 %MSpeedValue"
+    "sensors|block": "工具",
+    "sensors.DDMmotor|block": "控制腳位選擇 %McontrolPin|轉動方向選擇(0~1) %McontrolValue|速度腳位選擇 %MSpeedPin|速度值選定(0~255) %MSpeedValue"
 }
