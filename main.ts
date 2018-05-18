@@ -8,7 +8,7 @@ namespace sensors {
 	//% MSpeedPin.fieldEditor="gridpicker" MSpeedPin.fieldOptions.columns=4
     //% MSpeedPin.fieldOptions.tooltips="false" MSpeedPin.fieldOptions.width="300"
     
-    export function DDMmotor(McontrolPin: AnalogPin,McontrolValue: number1,MSpeedPin: AnalogPin,MSpeedValue: number2): void {
+    export function DDMmotor(McontrolPin: AnalogPin,McontrolValue: number,MSpeedPin: AnalogPin,MSpeedValue: number): void {
         pins.analogWritePin(McontrolPin, pins.map(McontrolValue, 0, 255, 0, 1023));
         pins.analogWritePin(MSpeedPin, pins.map(MSpeedValue, 0, 255, 0, 1023));	   
     }
