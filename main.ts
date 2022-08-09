@@ -7,7 +7,7 @@ namespace sensors {
     //% MSpeedPin.fieldOptions.tooltips="false" MSpeedPin.fieldOptions.width="300"
     
     export function DDMmotor(McontrolValue: number,MSpeedValue: number): void {
-        pins.digitalWritePin(DigitalPin.P1, pins.map(McontrolValue, 0, 1, 0, 1023));
+        pins.digitalWritePin(DigitalPin.P1, pins.map(McontrolValue, 0, 1, 0, 1));
         pins.analogWritePin(AnalogPin.P8, pins.map(MSpeedValue, 0, 255, 0, 1023));	   
     }
 }
