@@ -1,6 +1,7 @@
 # sensors
 
-智高提供的積木方塊
+智高提供的積木方塊。
+Blocks provided by Gigo。
 
 ## License
 
@@ -11,5 +12,5 @@
 
 
 ```package
-sensors=github:gigord2010/pxt-sensors
+sensors=github:gigotoys/gigo-block
 ```
