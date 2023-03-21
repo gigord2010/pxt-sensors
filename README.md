@@ -5,12 +5,12 @@ Blocks provided by Gigo。
 
 ## License
 
-* 
+* MIT
 
 
 ## Supported targets
 
 
 ```package
-sensors=github:gigotoys/pxt-sensor
+sensors=github:gigord2010/pxt-sensor
 ```
