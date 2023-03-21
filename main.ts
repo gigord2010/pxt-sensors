@@ -1,5 +1,5 @@
 //% weight=0 color=#3CB371 icon="\uf2db" block="sensors"
-namespace Motor {
+namespace sensors {
 	//% blockId=DDMmotor block="Mcontrol pin %McontrolPin|direction of Mcontrol(0~1) %McontrolValue|MSpeed pin %MSpeedPin|speed of MSpeed(0~255) %MSpeedValue" blockExternalInputs=false
     //% McontrolValue.min=0 McontrolValue.max=1 
 	//% MSpeedValue.min=0 MSpeedValue.max=255
